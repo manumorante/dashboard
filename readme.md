@@ -1,6 +1,7 @@
-Localizar los componentes de DS, UI y SPA y mostrar la relación entre ellos.
+# Dashboard
 
-- Leer la carpeta DS y hacer un array
-- Leer la carpeta UI y hacer un array
-- Leer cada componente de UI y buscar dentro los items del array DS
-- ...
+Obtener la relación entre componentes que se usan unos a otros.
+
+- Número de apariciones.
+- Componentes sin uso.
+- Dependencias.
