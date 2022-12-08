@@ -1,23 +1,33 @@
 import { paths } from '../config.js'
-import { readThisFile, getFolders, getImportsFrom, saveJSON } from './lib.js'
+import { readThisFile, getFolders, getImportsFrom, getUseCases, saveJSON } from './lib.js'
+
+function getTheImports(linesArray) {
+  const localImports = getImportsFrom(linesArray, "'../")
+  const dsImports = getImportsFrom(linesArray, '@web/ds')
+  const uiImports = getImportsFrom(linesArray, '@web/ui')
+  const useCases = getUseCases(linesArray)
+
+  return {
+    ...(localImports && { localImports }),
+    ...(dsImports && { dsImports }),
+    ...(uiImports && { uiImports }),
+    ...(useCases && { useCases }),
+  }
+}
 
 function getImportsInFolder(path) {
-  const output = []
+  let output = {}
   const folder = getFolders(path)
 
   folder.every((component) => {
     const file = readThisFile(`${path}/${component}/index.js`)
     const linesArray = file.split('\n')
-    const localImports = getImportsFrom(linesArray, "'../")
-    const dsImports = getImportsFrom(linesArray, '@web/ds')
-    const uiImports = getImportsFrom(linesArray, '@web/ui')
+    const importsObj = getTheImports(linesArray)
 
-    output.push({
-      component,
-      localImports,
-      dsImports,
-      uiImports,
-    })
+    let itemObj = new Object()
+    itemObj[component] = importsObj
+
+    output = { ...output, ...itemObj }
 
     return true
   })
@@ -28,8 +38,7 @@ function getImportsInFolder(path) {
 const data = {
   ds: getImportsInFolder(paths.ds),
   ui: getImportsInFolder(paths.ui),
+  spa: getImportsInFolder(paths.spa),
 }
 
-// const jsonPath = '/Users/manu/projects/personal/nube/src/frontend/output.json'
-const jsonPath = 'output.json'
-saveJSON(jsonPath, data)
+saveJSON('output.json', data)
