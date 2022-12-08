@@ -1,0 +1,862 @@
+{
+  "ds": [
+    {
+      "component": "AddToList",
+      "localImports": [
+        "Anchor",
+        "Flex",
+        "Link",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Alert",
+      "localImports": [
+        "Flex",
+        "Typography",
+        "IconLink"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Anchor",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Animations",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Avatar",
+      "localImports": [
+        "Image",
+        "Anchor"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Badge",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Banner",
+      "localImports": [
+        "Flex",
+        "Image",
+        "IconLink",
+        "Anchor",
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BlogPost",
+      "localImports": [
+        "Flex",
+        "Anchor",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BorderRadius",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Breadcrumb",
+      "localImports": [
+        "Link",
+        "Anchor",
+        "Flex",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Button",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CTAButtons",
+      "localImports": [
+        "Button",
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Checkbox",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Colors",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Countdown",
+      "localImports": [
+        "ShortTimeText",
+        "Flex",
+        "Typography",
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CoursePackCard",
+      "localImports": [
+        "Flex",
+        "Link",
+        "Typography",
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CourseStats",
+      "localImports": [
+        "Typography",
+        "Flex",
+        "When",
+        "Tag",
+        "Link"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CoverVideo",
+      "localImports": [
+        "Image",
+        "ProgressBar"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "FilterList",
+      "localImports": [
+        "Typography",
+        "Popover"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "FlashMessage",
+      "localImports": [
+        "Flex"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Flex",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "FloatingAlert",
+      "localImports": [
+        "Flex",
+        "IconLink"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Fonts",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Gradients",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Grid",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "IconLink",
+      "localImports": [
+        "Flex",
+        "Anchor"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Icons",
+      "localImports": [
+        "Input",
+        "Flex"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Image",
+      "localImports": [
+        "Flex"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "ImageInfoCard",
+      "localImports": [
+        "Flex",
+        "Typography",
+        "Anchor",
+        "Image"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "InfiniteScroll",
+      "localImports": [
+        "LoadingSpinner",
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Input",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Link",
+      "localImports": [
+        "Anchor",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "LinkList",
+      "localImports": [
+        "Link",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "List",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "LoadingSpinner",
+      "localImports": [
+        "Flex"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Modal",
+      "localImports": [
+        "Flex",
+        "Button",
+        "IconLink",
+        "Typography",
+        "Overlay",
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Opacity",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Overlay",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Paragraph",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Popover",
+      "localImports": [
+        "Overlay"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "ProgressBar",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "RedeemCreditsInformation",
+      "localImports": [
+        "Flex",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "RedeemCreditsToast",
+      "localImports": [
+        "Image",
+        "Flex",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "SectionHeader",
+      "localImports": [
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Select",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Shadows",
+      "localImports": [
+        "Flex"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "ShortTimeText",
+      "localImports": [
+        "Typography",
+        "Flex"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "SimpleCard",
+      "localImports": [
+        "Flex",
+        "Anchor",
+        "Typography"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "SocialMediaButton",
+      "localImports": [
+        "Anchor"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Spacing",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Switch",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Tag",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "TextBlock",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Title",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Tooltip",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Typography",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Video",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "When",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    }
+  ],
+  "ui": [
+    {
+      "component": "BannerDomestikaPlus",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BannerDownloadApp",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BannerMarketing",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BannerSignUpForm",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BannerSocial",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "BannerTeacher",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Breadcrumb",
+      "localImports": [],
+      "dsImports": [
+        "Breadcrumb,Flex"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "CheckPlus",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CookiesAlert",
+      "localImports": [],
+      "dsImports": [
+        "FloatingAlert,Flex,Typography,Button,Link"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "CourseCard",
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CourseCardsGrid",
+      "localImports": [
+        "MicroDataList",
+        "DynamicRendering",
+        "CourseCard"
+      ],
+      "dsImports": [
+        "Grid,InfiniteScroll"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "CoursePackCard",
+      "localImports": [
+        "useCoursePackTracking"
+      ],
+      "dsImports": [
+        "CoursePackCard,Tag,CountdownCoursePack,Flex,Anchor,Button"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "CoursesBlock",
+      "localImports": [
+        "When",
+        "CourseCard",
+        "SectionHeaderWithFilters",
+        "CoursePackCard",
+        "DynamicRendering"
+      ],
+      "dsImports": [
+        "Flex,Typography,Grid"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "CoursesNavigation",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "CoursesPacksGrid",
+      "localImports": [
+        "DynamicRendering",
+        "CoursePackCard",
+        "MicroDataList"
+      ],
+      "dsImports": [
+        "Grid,InfiniteScroll"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "DomestikaLogo",
+      "localImports": [],
+      "dsImports": [
+        "Anchor"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "DynamicRendering",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "ErrorBoundary",
+      "localImports": [],
+      "dsImports": [
+        "Alert"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "FacebookLikeButton",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "FeatureToggle",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "FinalProjectPlayer",
+      "localImports": [],
+      "dsImports": [
+        "CoverVideo",
+        "Video"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "FlashMessage",
+      "localImports": [],
+      "dsImports": [
+        "FlashMessage"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "Footer",
+      "localImports": [
+        "DomestikaLogo",
+        "StoreGoogleLogo",
+        "StoreAppleLogo",
+        "When"
+      ],
+      "dsImports": [
+        "LinkList,Link,Flex,Select,Typography,SocialMediaButton,Button"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "GdprCookiesAlert",
+      "localImports": [
+        "GdprModal",
+        "When"
+      ],
+      "dsImports": [
+        "FloatingAlert,Flex,Typography,Button,Link"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "GdprModal",
+      "localImports": [],
+      "dsImports": [
+        "Modal,Checkbox,Flex,Typography,Link,Tooltip"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "Head",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "Header",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "HeroCategoryExplorer",
+      "localImports": [],
+      "dsImports": [
+        "Button,ImageInfoCard"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "HeroHeader",
+      "localImports": [],
+      "dsImports": [
+        "Flex,Button,Avatar"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "HeroProjectExplorer",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "HeroVideo",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "HighlightedCourses",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "LinkListGrid",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "MainLayout",
+      "localImports": [
+        "FlashMessage",
+        "Header",
+        "Footer",
+        "DynamicRendering",
+        "TopAlert",
+        "CookiesAlert",
+        "GdprCookiesAlert",
+        "PendingConfirmationAlert",
+        "FeatureToggle",
+        "Breadcrumb"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "MicroDataList",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "NotFound",
+      "localImports": [],
+      "dsImports": [
+        "Anchor,Button,Flex,IconLink,Image,Typography"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "PendingConfirmationAlert",
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [
+        "FloatingAlert,Flex,Typography,Link"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "Player",
+      "localImports": [],
+      "dsImports": [
+        "CoverVideo",
+        "Video"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "PriceTags",
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [
+        "Flex,Tag,Anchor"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "ProPlusPopover",
+      "localImports": [],
+      "dsImports": [
+        "Popover,Flex,Tag,Typography,Button,Anchor,Image"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "SEOMetaOG",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "SectionHeaderWithFilters",
+      "localImports": [
+        "When",
+        "SwitchPlus"
+      ],
+      "dsImports": [
+        "SectionHeader,FilterList,Link,Typography"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "SeeMoreCourseButton",
+      "localImports": [],
+      "dsImports": [
+        "Flex,Button,Anchor"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "StaticBanner",
+      "localImports": [],
+      "dsImports": [
+        "Banner"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "StoreAppleLogo",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "StoreGoogleLogo",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "SwitchPlus",
+      "localImports": [],
+      "dsImports": [
+        "Switch"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "TagPlus",
+      "localImports": [],
+      "dsImports": [
+        "Tag"
+      ],
+      "uiImports": []
+    },
+    {
+      "component": "TopAlert",
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [],
+      "uiImports": []
+    },
+    {
+      "component": "When",
+      "localImports": [],
+      "dsImports": [],
+      "uiImports": []
+    }
+  ]
+}

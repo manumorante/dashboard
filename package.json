@@ -1,0 +1,14 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "description": "Dashboard",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create": "node src/create.js",
+    "test": "exit 0"
+  },
+  "author": "Manu Morante",
+  "license": "ISC",
+  "dependencies": {}
+}
