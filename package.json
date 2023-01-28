@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node src/show.js",
     "create": "node src/create.js",
     "test": "exit 0"
   },

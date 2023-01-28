@@ -1,180 +1,380 @@
 {
-  "ds": {
+  "DS": {
     "AddToList": {
-      "localImports": ["Anchor"]
+      "localImports": [
+        "Anchor"
+      ]
     },
     "Alert": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "Anchor": {},
     "Animations": {},
     "Avatar": {
-      "localImports": ["Image"]
+      "localImports": [
+        "Image"
+      ]
+    },
+    "AvatarGroup": {
+      "localImports": [
+        "Image"
+      ]
     },
     "Badge": {},
     "Banner": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "BlogPost": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "BorderRadius": {},
     "Breadcrumb": {
-      "localImports": ["Link"]
+      "localImports": [
+        "Link"
+      ]
     },
-    "Button": {},
+    "BreakLine": {},
+    "Button": {
+      "localImports": [
+        "Flex"
+      ]
+    },
     "CTAButtons": {
-      "localImports": ["Button"]
+      "localImports": [
+        "Button"
+      ]
     },
     "Checkbox": {},
     "Colors": {},
+    "Container": {},
+    "ContainerFullWidth": {},
     "Countdown": {
-      "localImports": ["ShortTimeText"]
+      "localImports": [
+        "ShortTimeText"
+      ]
     },
     "CoursePackCard": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "CourseStats": {
-      "localImports": ["Typography"]
+      "localImports": [
+        "Typography"
+      ]
     },
     "CoverVideo": {
-      "localImports": ["Image"]
+      "localImports": [
+        "Image"
+      ]
     },
     "FilterList": {
-      "localImports": ["Typography"]
+      "localImports": [
+        "Typography"
+      ]
     },
     "FlashMessage": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "Flex": {},
     "FloatingAlert": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "Fonts": {},
+    "FullRoundedButton": {
+      "localImports": [
+        "Flex"
+      ]
+    },
     "Gradients": {},
     "Grid": {},
     "IconLink": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "Icons": {
-      "localImports": ["Input"]
+      "localImports": [
+        "Input"
+      ]
     },
     "Image": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "ImageInfoCard": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "InfiniteScroll": {
-      "localImports": ["LoadingSpinner"]
+      "localImports": [
+        "LoadingSpinner"
+      ]
+    },
+    "InfoBox": {
+      "localImports": [
+        "Flex"
+      ]
     },
     "Input": {},
     "Link": {
-      "localImports": ["Anchor"]
+      "localImports": [
+        "Anchor"
+      ]
     },
     "LinkList": {
-      "localImports": ["Link"]
+      "localImports": [
+        "Link"
+      ]
     },
     "List": {},
     "LoadingSpinner": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "Modal": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "Opacity": {},
     "Overlay": {},
     "Paragraph": {},
     "Popover": {
-      "localImports": ["Overlay"]
+      "localImports": [
+        "Overlay"
+      ]
     },
     "ProgressBar": {},
     "RedeemCreditsInformation": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "RedeemCreditsToast": {
-      "localImports": ["Image"]
+      "localImports": [
+        "Image"
+      ]
     },
     "SectionHeader": {
-      "localImports": ["Typography"]
+      "localImports": [
+        "Typography"
+      ]
     },
     "Select": {},
     "Shadows": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "ShortTimeText": {
-      "localImports": ["Typography"]
+      "localImports": [
+        "Typography"
+      ]
     },
     "SimpleCard": {
-      "localImports": ["Flex"]
+      "localImports": [
+        "Flex"
+      ]
     },
     "SocialMediaButton": {
-      "localImports": ["Anchor"]
+      "localImports": [
+        "Anchor"
+      ]
     },
     "Spacing": {},
     "Switch": {},
+    "Tabs": {
+      "localImports": [
+        "Select"
+      ]
+    },
     "Tag": {},
     "TextBlock": {},
+    "TextLink": {
+      "localImports": [
+        "Anchor"
+      ]
+    },
     "Title": {},
     "Tooltip": {},
     "Typography": {},
     "Video": {},
     "When": {}
   },
-  "ui": {
+  "UI": {
     "BannerDomestikaPlus": {},
-    "BannerDownloadApp": {},
-    "BannerMarketing": {},
+    "BannerDownloadApps": {
+      "localImports": [
+        "StoreGoogleLogo"
+      ],
+      "dsImports": [
+        "Typography",
+        "Image",
+        "Container",
+        "ContainerFullWidth"
+      ]
+    },
+    "BannerFeatured": {
+      "dsImports": [
+        "Container",
+        "ContainerFullWidth",
+        "Image",
+        "Flex",
+        "Typography",
+        "Button"
+      ]
+    },
+    "BannerMarketing": {
+      "dsImports": [
+        "Typography",
+        "Flex",
+        "BreakLine"
+      ]
+    },
     "BannerSignUpForm": {},
-    "BannerSocial": {},
+    "BannerSocial": {
+      "dsImports": [
+        "Flex",
+        "Image",
+        "Typography",
+        "TextLink"
+      ]
+    },
     "BannerTeacher": {},
+    "BasicsAlert": {
+      "dsImports": [
+        "Flex",
+        "Image",
+        "InfoBox",
+        "Typography"
+      ],
+      "useCases": [
+        "CloseDomestikaBasicsAlertUseCase"
+      ]
+    },
+    "BlockerDetect": {},
     "Breadcrumb": {
-      "dsImports": ["Breadcrumb", "Flex"]
+      "dsImports": [
+        "Breadcrumb",
+        "Flex"
+      ]
     },
     "CheckPlus": {},
     "CookiesAlert": {
-      "dsImports": ["FloatingAlert", "Flex", "Typography", "Button", "Link"],
-      "useCases": ["SetGDPRStatusUserUseCase"]
+      "dsImports": [
+        "FloatingAlert",
+        "Flex",
+        "Typography",
+        "Button",
+        "Link"
+      ],
+      "useCases": [
+        "SetGDPRStatusUserUseCase"
+      ]
     },
     "CourseCard": {
-      "localImports": ["When"]
+      "localImports": [
+        "When"
+      ]
     },
     "CourseCardsGrid": {
-      "localImports": ["MicroDataList"],
-      "dsImports": ["Grid", "InfiniteScroll"]
+      "localImports": [
+        "MicroDataList"
+      ],
+      "dsImports": [
+        "Grid",
+        "InfiniteScroll"
+      ]
     },
     "CoursePackCard": {
-      "localImports": ["useCoursePackTracking"],
-      "dsImports": ["CoursePackCard", "Tag", "CountdownCoursePack", "Flex", "Anchor", "Button"],
-      "useCases": ["AddToCartPackCourseUseCase"]
+      "localImports": [
+        "useCoursePackTracking"
+      ],
+      "dsImports": [
+        "CoursePackCard",
+        "Tag",
+        "CountdownCoursePack",
+        "Flex",
+        "Anchor",
+        "Button"
+      ],
+      "useCases": [
+        "AddToCartPackCourseUseCase"
+      ]
     },
     "CoursesBlock": {
-      "localImports": ["When"],
-      "dsImports": ["Flex", "Typography", "Grid"]
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [
+        "Flex",
+        "Typography",
+        "Grid"
+      ]
+    },
+    "CoursesBlockGroup": {
+      "localImports": [
+        "CoursesBlock"
+      ],
+      "useCases": [
+        "GetBelongListPricesCourseUseCase"
+      ]
     },
     "CoursesNavigation": {},
     "CoursesPacksGrid": {
-      "localImports": ["DynamicRendering"],
-      "dsImports": ["Grid", "InfiniteScroll"],
-      "useCases": ["GetListPacksCourseUseCase", "GetListPricesPacksCourseUseCase"]
+      "localImports": [
+        "DynamicRendering"
+      ],
+      "dsImports": [
+        "Grid",
+        "InfiniteScroll"
+      ],
+      "useCases": [
+        "GetListPacksCourseUseCase",
+        "GetListPricesPacksCourseUseCase"
+      ]
     },
     "DomestikaLogo": {
-      "dsImports": ["Anchor"]
+      "dsImports": [
+        "Anchor"
+      ]
     },
     "DynamicRendering": {},
     "ErrorBoundary": {
-      "dsImports": ["Alert"]
+      "dsImports": [
+        "Alert"
+      ]
     },
     "FacebookLikeButton": {},
     "FeatureToggle": {},
     "FinalProjectPlayer": {
-      "dsImports": ["CoverVideo"]
+      "dsImports": [
+        "CoverVideo"
+      ]
     },
     "FlashMessage": {
-      "dsImports": ["FlashMessage"]
+      "dsImports": [
+        "FlashMessage"
+      ]
     },
     "Footer": {
-      "localImports": ["DomestikaLogo"],
+      "localImports": [
+        "DomestikaLogo"
+      ],
       "dsImports": [
         "LinkList",
         "Link",
@@ -192,108 +392,264 @@
       ]
     },
     "GdprCookiesAlert": {
-      "localImports": ["GdprModal"],
-      "dsImports": ["FloatingAlert", "Flex", "Typography", "Button", "Link"],
-      "useCases": ["SetAdvanceGDPRStatusUserUseCase"]
+      "localImports": [
+        "GdprModal"
+      ],
+      "dsImports": [
+        "FloatingAlert",
+        "Flex",
+        "Typography",
+        "Button",
+        "Link"
+      ],
+      "useCases": [
+        "SetAdvanceGDPRStatusUserUseCase"
+      ]
     },
     "GdprModal": {
-      "dsImports": ["Modal", "Checkbox", "Flex", "Typography", "Link", "Tooltip"],
-      "useCases": ["SetAdvanceGDPRStatusUserUseCase"]
+      "dsImports": [
+        "Modal",
+        "Checkbox",
+        "Flex",
+        "Typography",
+        "Link",
+        "Tooltip"
+      ],
+      "useCases": [
+        "SetAdvanceGDPRStatusUserUseCase"
+      ]
+    },
+    "GridMinimalCourses": {
+      "localImports": [
+        "MinimalCard"
+      ],
+      "dsImports": [
+        "Grid",
+        "LoadingSpinner",
+        "Button",
+        "Typography"
+      ],
+      "useCases": [
+        "GetBelongListPricesCourseUseCase",
+        "GetByCategoriesCourseUseCase",
+        "GetListByFeatureCourseUseCase"
+      ]
     },
     "Head": {},
     "Header": {
-      "useCases": ["SearchCourseUseCase"]
+      "useCases": [
+        "SearchCourseUseCase"
+      ]
     },
     "HeroCategoryExplorer": {
-      "dsImports": ["Button", "ImageInfoCard"]
+      "dsImports": [
+        "Button",
+        "ImageInfoCard",
+        "Grid",
+        "Typography"
+      ]
     },
     "HeroHeader": {
-      "dsImports": ["Flex", "Button", "Avatar"]
+      "dsImports": [
+        "Flex",
+        "Button",
+        "AvatarGroup",
+        "BreakLine",
+        "Typography"
+      ]
     },
     "HeroProjectExplorer": {},
-    "HeroVideo": {},
-    "HighlightedCourses": {},
+    "HeroVideo": {
+      "dsImports": [
+        "ContainerFullWidth"
+      ]
+    },
+    "HighlightedCourses": {
+      "localImports": [
+        "GridMinimalCourses"
+      ],
+      "dsImports": [
+        "Button",
+        "Tabs",
+        "Typography"
+      ]
+    },
     "LinkListGrid": {},
     "MainLayout": {
-      "localImports": ["FlashMessage"]
+      "localImports": [
+        "FlashMessage"
+      ]
     },
     "MicroDataList": {},
+    "MinimalCard": {
+      "localImports": [
+        "showPlusTag"
+      ],
+      "dsImports": [
+        "Typography",
+        "Button",
+        "Image",
+        "Tag",
+        "Link",
+        "Anchor",
+        "IconLink"
+      ]
+    },
     "NotFound": {
-      "dsImports": ["Anchor", "Button", "Flex", "IconLink", "Image", "Typography"]
+      "dsImports": [
+        "Anchor",
+        "Button",
+        "Flex",
+        "IconLink",
+        "Image",
+        "Typography"
+      ]
     },
     "PendingConfirmationAlert": {
-      "localImports": ["When"],
-      "dsImports": ["FloatingAlert", "Flex", "Typography", "Link"]
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [
+        "FloatingAlert",
+        "Flex",
+        "Typography",
+        "Link"
+      ]
     },
     "Player": {
-      "dsImports": ["CoverVideo"],
-      "useCases": ["CurrentUserUseCase", "GetVideoSpeedUserUseCase", "GetVideoVolumeUserUseCase"]
-    },
-    "PriceTags": {
-      "localImports": ["When"],
-      "dsImports": ["Flex", "Tag", "Anchor"]
+      "dsImports": [
+        "CoverVideo"
+      ],
+      "useCases": [
+        "CurrentUserUseCase",
+        "GetVideoSpeedUserUseCase",
+        "GetVideoVolumeUserUseCase"
+      ]
     },
     "ProPlusPopover": {
-      "dsImports": ["Popover", "Flex", "Tag", "Typography", "Button", "Anchor", "Image"],
-      "useCases": ["GetPlusPromotionUseCase"]
+      "dsImports": [
+        "Popover",
+        "Flex",
+        "Tag",
+        "Typography",
+        "Button",
+        "Anchor",
+        "Image"
+      ],
+      "useCases": [
+        "GetPlusPromotionUseCase"
+      ]
     },
+    "QR": {},
     "SEOMetaOG": {},
     "SectionHeaderWithFilters": {
-      "localImports": ["When"],
-      "dsImports": ["SectionHeader", "FilterList", "Link", "Typography"]
+      "localImports": [
+        "When"
+      ],
+      "dsImports": [
+        "SectionHeader",
+        "FilterList",
+        "Link",
+        "Typography"
+      ]
     },
     "SeeMoreCourseButton": {
-      "dsImports": ["Flex", "Button", "Anchor"]
+      "dsImports": [
+        "Flex",
+        "Button",
+        "Anchor"
+      ]
     },
     "StaticBanner": {
-      "dsImports": ["Banner"],
-      "useCases": ["AddIdClosedAdvertUseCase"]
+      "dsImports": [
+        "Banner"
+      ],
+      "useCases": [
+        "AddIdClosedAdvertUseCase"
+      ]
     },
     "StoreAppleLogo": {},
     "StoreGoogleLogo": {},
     "SwitchPlus": {
-      "dsImports": ["Switch"]
+      "dsImports": [
+        "Switch"
+      ]
     },
     "TagPlus": {
-      "dsImports": ["Tag"]
+      "dsImports": [
+        "Tag"
+      ]
     },
     "TopAlert": {
-      "localImports": ["When"]
+      "localImports": [
+        "When"
+      ]
     },
     "When": {}
   },
-  "spa": {
+  "SPA": {
     "AllSectionsCourseDirectory": {
-      "localImports": ["preHooks", "postHooks"],
-      "dsImports": ["Flex", "Typography"],
-      "uiImports": ["Head", "LinkListGrid"],
-      "useCases": ["GetAllSectionsCourseUseCase"]
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "dsImports": [
+        "Flex",
+        "Typography"
+      ],
+      "uiImports": [
+        "Head",
+        "LinkListGrid"
+      ],
+      "useCases": [
+        "GetAllSectionsCourseUseCase"
+      ]
     },
     "CoursesDirectoryFeatures": {
-      "localImports": ["preHooks", "postHooks"],
-      "dsImports": ["Flex"],
-      "uiImports": [""],
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "dsImports": [
+        "Flex",
+        "Tag"
+      ],
+      "uiImports": [
+        ""
+      ],
       "useCases": [
+        "CheckDomestikaBasicsAlertUseCase",
+        "GetAllExperimentalUseCase",
         "GetAreasRelatedFeatureByIDsCourseUseCase",
+        "GetByFeaturesCourseUseCase",
+        "GetByIDsCourseUseCase",
         "GetCartCourseUseCase",
         "GetCartProductByIDCourseUseCase",
         "GetConfigurablePacksCourseUseCase",
         "GetListByFeatureCourseUseCase",
         "GetListPricesByFeatureCourseUseCase",
         "GetSectionAdvertUseCase",
+        "GetSoftwareByIDCourseUseCase",
         "GetSoftwaresRelatedFeatureByIDsCourseUseCase"
       ]
     },
     "CoursesDirectoryHome": {
-      "localImports": ["preHooks", "postHooks"],
-      "dsImports": ["Flex", "SectionHeader"],
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "dsImports": [
+        "Flex",
+        "Typography"
+      ],
       "uiImports": [
         "Head",
         "CoursesNavigation",
         "SeeMoreCourseButton",
         "StaticBanner",
         "When",
-        "CoursesBlock"
+        "CoursesBlock",
+        "MicroDataList"
       ],
       "useCases": [
         "GetAreasCourseUseCase",
@@ -312,9 +668,20 @@
       ]
     },
     "CoursesDirectoryPacks": {
-      "localImports": ["preHooks", "postHooks"],
-      "dsImports": ["Flex", "SectionHeader"],
-      "uiImports": ["Head", "CoursesNavigation", "CoursesPacksGrid", "StaticBanner"],
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "dsImports": [
+        "Flex",
+        "SectionHeader"
+      ],
+      "uiImports": [
+        "Head",
+        "CoursesNavigation",
+        "CoursesPacksGrid",
+        "StaticBanner"
+      ],
       "useCases": [
         "GetAreasRelatedPacksCourseUseCase",
         "GetCartCourseUseCase",
@@ -326,15 +693,16 @@
       ]
     },
     "CoursesDirectorySections": {
-      "localImports": ["preHooks", "postHooks"],
-      "dsImports": ["Flex"],
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "dsImports": [
+        "Typography",
+        "Flex"
+      ],
       "uiImports": [
-        "Head",
-        "CoursesNavigation",
-        "CourseCardsGrid",
-        "SectionHeaderWithFilters",
-        "StaticBanner",
-        "NotFound"
+        ""
       ],
       "useCases": [
         "GetAreasRelatedSectionByIDCourseUseCase",
@@ -349,19 +717,30 @@
       ]
     },
     "Home": {
-      "localImports": ["preHooks", "postHooks"],
-      "uiImports": [""],
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "uiImports": [
+        ""
+      ],
       "useCases": [
+        "GetBannerSocialUseCase",
         "GetCategoriesCourseUseCase",
+        "GetDownloadAppsBannerPromotionUseCase",
+        "GetFeaturedBannerPromotionUseCase",
         "GetFeaturedProjectsUseCase",
         "GetFeaturedVideoUrlsPromotionUseCase",
+        "GetListByFeatureCourseUseCase",
         "GetListFeaturedUsersUserUseCase",
         "GetParamsRedirectUseCase",
         "ViewPageTrackingUseCase"
       ]
     },
     "Layout": {
-      "uiImports": ["MainLayout"],
+      "uiImports": [
+        "MainLayout"
+      ],
       "useCases": [
         "SendCompleteRegistrationTrackingUseCase",
         "SendFraudAnalyticsUseCase",
@@ -370,13 +749,26 @@
       ]
     },
     "NotFound": {
-      "localImports": ["preHooks", "postHooks"],
-      "uiImports": ["Head", "NotFound"]
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "uiImports": [
+        "Head",
+        "NotFound"
+      ]
     },
     "Terms": {
-      "localImports": ["preHooks", "postHooks"],
-      "dsImports": ["TextBlock"],
-      "uiImports": ["Head"]
+      "localImports": [
+        "preHooks",
+        "postHooks"
+      ],
+      "dsImports": [
+        "TextBlock"
+      ],
+      "uiImports": [
+        "Head"
+      ]
     }
   }
 }

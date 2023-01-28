@@ -36,9 +36,9 @@ function getImportsInFolder(path) {
 }
 
 const data = {
-  ds: getImportsInFolder(paths.ds),
-  ui: getImportsInFolder(paths.ui),
-  spa: getImportsInFolder(paths.spa),
+  DS: getImportsInFolder(paths.ds),
+  UI: getImportsInFolder(paths.ui),
+  SPA: getImportsInFolder(paths.spa),
 }
 
 saveJSON('output.json', data)
